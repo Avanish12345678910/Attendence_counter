@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Attendance Counter</h1>
+            <p class="subtitle">Track your class attendance easily</p>
+        </header>
+
+        <div class="add-subject-section">
+            <h2>Add New Subject</h2>
+            <div class="input-group">
+                <input type="text" id="subjectName" placeholder="Enter subject name" />
+                <button onclick="addSubject()" class="btn-primary">Add Subject</button>
+            </div>
+        </div>
+
+        <div class="subjects-container" id="subjectsContainer">
+            <!-- Subject cards will be added here dynamically -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
